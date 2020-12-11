@@ -1,0 +1,29 @@
+.footer{
+  hr{
+    background-color: #ffc107;
+    opacity: .4;
+  }
+  a{
+    color: #ddd;
+  }
+  a:hover{
+    color: #ffc107;
+    text-decoration: none;
+  }
+  h5{
+    margin-bottom: 20px;
+  }
+  ul{
+    li{
+      list-style: none;
+      margin-bottom: 10px;
+
+    }
+  }
+}
+.row{
+  justify-content: space-around;
+}
+.copyright{
+padding-top: 20px;
+}

@@ -28,9 +28,18 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/font-awesome/css/font-awesome.min.css",
+              "src/assets/styles/fontcarmacenterAr.css",
+              "node_modules/swiper/swiper-bundle.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/scripts/jsfile.js",
+              "node_modules/jquery/dist/jquery.js",
+              "src/assets/scripts/poppercarma.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -92,6 +101,9 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
+              "./node_modules/ng-zorro-antd/ng-zorro-antd.min.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +135,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "carmacenter"
 }
