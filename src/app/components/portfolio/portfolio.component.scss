@@ -1,9 +1,11 @@
-.active{
+.active {
   background-color: #F1600B;
 }
+
 .portfolio-content .btn {
   margin-right: 15px;
 }
+
 /*--start-portfolio--*/
 
 .portfolio-content .btn {
@@ -26,7 +28,8 @@ h1 {
 }
 
 /* Add padding BETWEEN each column (if you want) */
-.row, .row > .column {
+.row,
+.row>.column {
   padding: 8px;
 }
 
@@ -77,7 +80,7 @@ h1 {
   height: 100%;
   left: 0;
   top: 0;
-  background-color: rgba(241, 95, 11, 0.486);
+  background-color: rgb(255 193 7 / 59%);
   opacity: 0;
   border-radius: 15px;
 }
@@ -89,7 +92,7 @@ h1 {
   transform: translate(-50%, -50%);
   opacity: 0;
   height: auto;
-  font-size: 80%;
+  font-size: 60%;
 }
 
 .content:hover .port-link a {

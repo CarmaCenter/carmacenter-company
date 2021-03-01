@@ -1,20 +1,23 @@
 .swiper-slide {
   position: relative;
-  height: 201.19px;
+  height: 300px;
+
   .overlay {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #ffc10762;
+    background-color: rgb(255 193 7 / 59%);
     opacity: 0;
     transition: all 0.5s ease-in-out;
   }
-  .btn-warning{
-    margin-top: 23%;
+
+  .btn-warning {
+    margin-top: 38%;
   }
 }
-.swiper-slide:hover .overlay{
-opacity: 1;
+
+.swiper-slide:hover .overlay {
+  opacity: 1;
 }

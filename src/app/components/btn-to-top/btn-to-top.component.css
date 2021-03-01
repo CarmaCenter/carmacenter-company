@@ -29,3 +29,30 @@
   z-index: 1000;
   outline: none;
 }
+.btn-wahtsapp{
+  background-color: #25D366;
+  position: fixed;
+  bottom: 16px;
+  left: 32px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: all .4s ease-in-out;
+}
+.btn-wahtsapp.active {
+  bottom: 100px;
+  pointer-events: auto;
+  opacity: 1;
+  z-index: 1000;
+  outline: none;
+}
+.btn-wahtsapp a{
+  color: #fff;
+}

@@ -1,5 +1,6 @@
 .contact-us {
-  background-image: url("../../../assets/images/unnamed.jpg");
+  background-image: url("../../../assets/images/Contact-Us.jpg");
+
   background-size: cover;
   background-attachment: fixed;
 
@@ -20,5 +21,10 @@
     color: #ffc107;
     text-decoration: none;
   }
-
+.contact-us-content{
+  background-color: rgba(0, 0, 0, 0.445);
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+}
 }

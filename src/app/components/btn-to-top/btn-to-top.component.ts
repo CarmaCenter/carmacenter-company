@@ -29,3 +29,14 @@ window.addEventListener("scroll", () => {
   })
 
 })
+window.addEventListener("scroll", () => {
+  var toTop = document.querySelector(".btn-wahtsapp");
+  if (window.pageYOffset > 700) {
+    toTop.classList.add("active");
+  } else {
+    toTop.classList.remove("active");
+
+  }
+
+
+})
